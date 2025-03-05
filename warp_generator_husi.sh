@@ -45,7 +45,7 @@ conf=$(cat <<-EOM
 "0.0.0.0/0",
 "::/0"
 ],
-"reserved": ${reservedDec},      
+"reserved": ${reservedDec}   
 }
 ]
 }
@@ -64,4 +64,4 @@ echo "Иногда конфиг сверху не полный или отсут
 echo -e "\n"
 echo "https://immalware.github.io/downloader.html?filename=WARP.conf&content=${conf_base64}"
 echo -e "\n"
-echo "Что-то не получилось? Есть вопросы? Пишите в теме: https://4pda.to/forum/index.php?showtopic=1083801&view=findpost&p=128068332"
+echo "Что-то не получилось? Есть вопросы? Пишите в теме: https://4pda.to/forum/index.php?showtopic=1083801"
