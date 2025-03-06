@@ -22,8 +22,6 @@ bash <(wget -qO- https://raw.githubusercontent.com/AlexDon228/bash-warp-generato
 5. По умолчанию конечная точка прописана адрес: engage.cloudflareclient.com порт: 2408
 6. Импортируем содержимое файла в Husi v0.10.12 через меню Пользовательская конфигурация.
 
-адрес: engage.cloudflareclient.com
-
 Что-то не получилось? Есть вопросы?
 
 Пишите в [Husi на 4pda](https://4pda.to/forum/index.php?showtopic=1083801) 
