@@ -30,24 +30,25 @@ reservedHex=$(echo "${reservedHex}" | awk 'BEGIN { ORS=""; print "0x" } { print 
 
 conf=$(cat <<-EOM
 {
-"type": "wireguard",	
+"type": "wireguard",
+"tag": "proxy",
 "mtu": 1280,
-"detour": "direct",
 "address": ["${client_ipv4}/32", "${client_ipv6}/128"],
 "private_key": "${priv}",
 "peers": [
 {
-"address": "188.114.97.0",	
-"port": 500,
+"address": "engage.cloudflareclient.com",
+"port": 2408,
 "public_key": "${peer_pub}",
 "pre_shared_key": "",
 "allowed_ips": [
 "0.0.0.0/0",
 "::/0"
 ],
-"reserved": ${reservedDec}   
+"reserved": ${reservedDec}
 }
-]
+],
+"detour": "direct"
 }
 EOM
 )
