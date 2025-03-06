@@ -1,6 +1,12 @@
 # Сгенерируйте конфиг Cloudflare WARP для Husi v0.10.12
 
-## Aeza Terminator
+## Forker from
+
+[ImMALWARE/bash-warp-generator](https://github.com/ImMALWARE/bash-warp-generator)
+
+[DikozImpact/bash-warp-generator](https://github.com/DikozImpact/bash-warp-generator)
+
+### Aeza Terminator
 Этот bash скрипт сгенерирует конфиг Cloudflare WARP для Husi v0.10.12.
 
 Не стоит выполнять его локально, так как РКН заблокировал запросы для получения конфига. Вместо этого лучше выполнять на удалённых серверах.
