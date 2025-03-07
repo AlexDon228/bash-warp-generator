@@ -38,8 +38,8 @@ conf=$(cat <<-EOM
 "listen_port": 1480,
 "peers": [
 {
-"address": "engage.cloudflareclient.com",
-"port": 2408,
+"address": "XXXXXXXXXXXX",
+"port": XXXX,
 "public_key": "${peer_pub}",
 "pre_shared_key": "",
 "allowed_ips": [
