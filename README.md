@@ -19,7 +19,7 @@
 bash <(wget -qO- https://raw.githubusercontent.com/AlexDon228/bash-warp-generator/refs/heads/main/warp_generator_husi.sh)
 ```
 4. После того, как конфиг сгенерируется скачиваем файл по ссылке.
-5. По умолчанию конечная точка прописана адрес: engage.cloudflareclient.com порт: 2408
+5. По умолчанию конечная точка прописана адрес: XXXXXXXXXXXX порт: XXXX
 6. Импортируем содержимое файла в Husi v0.10.12 через меню Пользовательская конфигурация.
 
 Что-то не получилось? Есть вопросы?
