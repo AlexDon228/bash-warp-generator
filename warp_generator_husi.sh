@@ -35,6 +35,7 @@ conf=$(cat <<-EOM
 "mtu": 1280,
 "address": ["${client_ipv4}/32", "${client_ipv6}/128"],
 "private_key": "${priv}",
+"listen_port": 1480,
 "peers": [
 {
 "address": "engage.cloudflareclient.com",
@@ -45,6 +46,7 @@ conf=$(cat <<-EOM
 "0.0.0.0/0",
 "::/0"
 ],
+"persistent_keepalive_interval": 600,
 "reserved": ${reservedDec}
 }
 ],
