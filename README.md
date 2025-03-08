@@ -29,4 +29,4 @@ bash <(wget -qO- https://raw.githubusercontent.com/AlexDon228/bash-warp-generato
 
 Что-то не получилось? Есть вопросы?
 
-Пишите в [Husi на 4pda](https://4pda.to/forum/index.php?showtopic=1083801) 
+Пишите в теме [Husi на 4pda](https://4pda.to/forum/index.php?showtopic=1083801) 
