@@ -35,7 +35,7 @@ conf=$(cat <<-EOM
 "mtu": 1280,
 "address": ["${client_ipv4}/32", "${client_ipv6}/128"],
 "private_key": "${priv}",
-"listen_port": 1480,
+"listen_port": 0,
 "peers": [
 {
 "address": "XXXXXXXXXXXX",
