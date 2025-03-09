@@ -7,7 +7,7 @@
 [DikozImpact/bash-warp-generator](https://github.com/DikozImpact/bash-warp-generator)
 
 ### Aeza Terminator
-Этот bash скрипт сгенерирует конфиг Cloudflare WARP для Husi v0.10.12.
+Этот bash скрипт сгенерирует конфигурацию Cloudflare WARP для Husi.
 
 Не стоит выполнять его локально, так как РКН заблокировал запросы для получения конфига. Вместо этого лучше выполнять на удалённых серверах.
 
@@ -18,7 +18,7 @@
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/AlexDon228/bash-warp-generator/refs/heads/main/warp_generator_husi.sh)
 ```
-4. После того, как конфиг сгенерируется скачиваем файл по ссылке.
+4. После того, как конфигурация сгенерируется скачиваем файл по ссылке.
 
 На Android нужно 2 раза на ссылку нажать, и потом зажать, тогда появится вариант скопировать. Лучше в Хроме делать, Яндекс баганный.
 
