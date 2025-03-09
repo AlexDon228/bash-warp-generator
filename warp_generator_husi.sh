@@ -48,7 +48,8 @@ conf=$(cat <<-EOM
 ],
 "persistent_keepalive_interval": 600,
 "reserved": ${reservedDec},
-"reserved": ${reservedHex}
+"reserved": ${reservedHex},
+"reserved": "${reserved64}"
 }
 ],
 "detour": "direct"
