@@ -1,4 +1,4 @@
-# Сгенерируйте конфиг Cloudflare WARP для Husi
+# Генератор конфигурации Cloudflare WARP для Husi
 
 ## Forker from
 
