@@ -35,6 +35,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/AlexDon228/bash-warp-generato
 "persistent_keepalive_interval": 600
 
 Можете изменить на свои значения, либо вообще удалить.
+
 7. Импортируем файл конфигурации WARP в Husi.
 
 Что-то не получилось? Есть вопросы?
