@@ -34,7 +34,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/AlexDon228/bash-warp-generato
 - Интервал постоянного поддержания активности WireGuard, в секундах:
 "persistent_keepalive_interval": 600
 
-Можете изменить на свои значения, либо вообще удалить.
+Можете изменить на свои значения.
 
 7. Импортируем файл конфигурации WARP в Husi.
 
