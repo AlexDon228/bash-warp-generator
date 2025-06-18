@@ -25,7 +25,7 @@ client_ipv6=$(echo "$response" | jq -r '.result.config.interface.addresses.v6')
 reserved64=$(echo "$response" | jq -r '.result.config.client_id')
 reservedHex=$(echo "$reserved64" | base64 -d | hexdump -v -e '/1 "%02x\n"')
 reservedDec=$(printf '%s\n' "${reservedHex}" | while read -r hex; do printf "%d, " "0x${hex}"; done)
-reservedDec="[${reservedDec%, }]"
+reservedDec="${reservedDec%, }"
 reservedHex=$(echo "${reservedHex}" | awk 'BEGIN { ORS=""; print "0x" } { print }')
 
 conf=$(cat <<-EOM
