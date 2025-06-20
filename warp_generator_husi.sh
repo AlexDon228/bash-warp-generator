@@ -47,7 +47,7 @@ conf=$(cat <<-EOM
 "::/0"
 ],
 "persistent_keepalive_interval": 600,
-"reserved": ${reservedDec}
+"reserved": "${reserved64}"
 }
 ],
 "detour": "direct"
@@ -62,6 +62,8 @@ echo "${conf}"
 [ -t 1 ] && echo "########### КОНЕЦ КОНФИГА ###########"
 echo "reserved в знаках:"
 echo "\"reserved\": \"${reserved64}\","
+echo "reserved в цифрах:"
+echo "\"reserved\": \"${reservedDec}\","
 echo -e "\n"
 echo "Иногда конфиг сверху не полный или отсутствует, поэтому лучше скачивайте по ссылке:"
 echo -e "\n"
