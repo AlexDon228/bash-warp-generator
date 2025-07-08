@@ -6,21 +6,30 @@
 
 [DikozImpact/bash-warp-generator](https://github.com/DikozImpact/bash-warp-generator)
 
-### Aeza Terminator
+### Termux
 Этот bash скрипт сгенерирует конфигурацию Cloudflare WARP для Husi.
 
 Не стоит выполнять его локально, так как РКН заблокировал запросы для получения конфига. Вместо этого лучше выполнять на удалённых серверах.
 
-1. Заходим на https://terminator.aeza.net/en/
-2. Выбираем **Debian**
+1. Устанавливаем и запускаем приложение Termux:
+
+https://github.com/termux/termux-app/releases
+
+2. Устанавливаем необходимые пакеты:
+
+```bash
+pkg update
+pkg install wget
+pkg install wget curl wireguard-tools
+```
+
 3. Вставляем команду:
 
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/AlexDon228/bash-warp-generator/refs/heads/main/warp_generator_husi.sh)
 ```
-4. После того, как конфигурация сгенерируется скачиваем файл по ссылке.
 
-На Android нужно 2 раза на ссылку нажать, и потом зажать, тогда появится вариант скопировать. Лучше в Хроме делать, Яндекс баганный.
+4. После того, как конфигурация сгенерируется скачиваем файл по ссылке.
 
 5. По умолчанию конечная точка прописана:
 - адрес: XXXXXXXXXXXX
