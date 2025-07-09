@@ -23,7 +23,7 @@ pkg install wget
 pkg install wget curl wireguard-tools
 ```
 
-3. Вставляем команду:
+3. Запускаем скрипт:
 
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/AlexDon228/bash-warp-generator/refs/heads/main/warp_generator_husi.sh)
