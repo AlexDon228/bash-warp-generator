@@ -24,7 +24,17 @@ pkg install wget curl wireguard-tools
 ```
 
 3. Запускаем скрипт:
-
+3.1. Для локального использования:
+- загрузите скрипт:
+```bash
+wget https://raw.githubusercontent.com/AlexDon228/bash-warp-generator/refs/heads/main/warp_generator_husi.sh
+chmod +x warp_generator_husi.sh
+```
+- запустите скрипт:
+```bash
+./warp_generator_husi.sh
+```
+3.2. Или запустите прямо из GitHub:
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/AlexDon228/bash-warp-generator/refs/heads/main/warp_generator_husi.sh)
 ```
